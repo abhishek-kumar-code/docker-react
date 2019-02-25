@@ -1,3 +1,11 @@
+# Builds the file in the current directory
+docker build .
+
+# Running the docker container 
+docker run -p 8080:80 {container id of nginix server}
+
+The site is hosted on localhost. For windows, do a docker-machine ls. The default running machine indicates the URL for the launched application. For this application, the URL is http://192.168.99.100:<port#>. Here, the port# for nginx web server is 8080.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
