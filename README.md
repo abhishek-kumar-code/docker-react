@@ -1,3 +1,11 @@
+# Install the tool to generate the React project
+npm install -g create-react-app
+
+# Generate a new React project
+create-react-app frontend
+
+This generates a React application with the name frontend.
+
 # Builds the file in the current directory
 docker build .
 
